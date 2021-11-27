@@ -24,15 +24,15 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop](https://imgur.com/VHOglXA)
-[Mobile](https://imgur.com/ZzerTme)
+[Desktop](https://i.imgur.com/VHOglXA.png)
+[Mobile](https://i.imgur.com/ZzerTme.png)
 
 
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Github page](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/yaakov04/order-summary-component-main)
+- Live Site URL: [Github page](https://yaakov04.github.io/order-summary-component-main/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Yaakov](https://yaakov04.github.io/yaakov)
+- Frontend Mentor - [@yaakov](https://www.frontendmentor.io/profile/yaakov04)
+- Twitter - [@Dieguit04](https://twitter.com/Dieguit04)
 
