@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop](https://i.imgur.com/VHOglXA.png)
-[Mobile](https://i.imgur.com/ZzerTme.png)
+[](https://i.imgur.com/VHOglXA.png)
+[](https://i.imgur.com/ZzerTme.png)
 
 
 
