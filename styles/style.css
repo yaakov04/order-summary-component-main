@@ -1,156 +1,153 @@
 :root {
-	--font: 'Red Hat Display', sans-serif;
-	--paleBlue:hsl(225, 100%, 94%);
-	--brightBlue:hsl(245, 75%, 52%);
-	--veryPaleBlue:hsl(225, 100%, 98%);
-	--desaturatedBlue:hsl(224, 23%, 55%);
-	--darkBlue:hsl(223, 47%, 23%);
-	}
+  --font: "Red Hat Display", sans-serif;
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
 html {
-    box-sizing: border-box;
-    font-size: 62.5%;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-font-family:var(--font);
-font-size:1.6rem;
-background-color:var(--paleBlue);
-background-image:url(../images/pattern-background-mobile.svg);
-background-repeat:no-repeat;
-background-size:100% 35%;
-color:var(--desaturatedBlue);
-
+  font-family: var(--font);
+  font-size: 1.6rem;
+  background-color: var(--paleBlue);
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  color: var(--desaturatedBlue);
 }
 
-@media(min-width:640px){
-body{
-background-image:url(../images/pattern-background-desktop.svg);
-}
+@media (min-width: 640px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
 }
 
 img {
-	display:block;
-	width:100%;
+  display: block;
+  width: 100%;
 }
 
 .container {
-	height:100vh;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-container {
-	padding:0 2rem;
-	margin-bottom:1rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
 }
 
 .card {
-	width:89%;
-	border-radius:2rem;
-	overflow:hidden;
-	text-align:center;
-	background-color:white;
+  width: 89%;
+  border-radius: 2rem;
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-@media(min-width: 640px) {
-    .card {
-        width: 40rem;
-    }
+@media (min-width: 640px) {
+  .card {
+    width: 40rem;
+  }
 }
 
 .card__image {
-	margin-bottom:3rem;
+  margin-bottom: 3rem;
 }
 
 .card__headline {
-	margin-bottom:1.2rem;
-	color:var(--darkBlue);
-	font-size:2.5rem;
-	font-weight:900;
+  margin-bottom: 1.2rem;
+  color: var(--darkBlue);
+  font-size: 2.5rem;
+  font-weight: 900;
 }
 
 .card__paragraph {
-	text-align:center;
-	padding:0 5rem;
-	margin-bottom:2rem;
+  text-align: center;
+  padding: 0 5rem;
+  margin-bottom: 2rem;
 }
 
-@media(min-width:640px){
-	.card__paragraph{
-		padding:0 3rem;
-	}
+@media (min-width: 640px) {
+  .card__paragraph {
+    padding: 0 3rem;
+  }
 }
 
 .plan {
-	margin:0 3rem 3rem 3rem;
-	display:flex;
-	align-items:center;
-	justify-content:space-between;
-	padding:2rem;
-	background-color:var(--veryPaleBlue);
-	border-radius:1rem;
-
-
+  margin: 0 3rem 3rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--veryPaleBlue);
+  border-radius: 1rem;
 }
 
-.plan__icon{
-	margin-right:1rem;
-	width:5.5rem;
+.plan__icon {
+  margin-right: 1rem;
+  width: 5.5rem;
 }
 
 .plan__price {
-	margin-right:3rem;
+  margin-right: 3rem;
 }
 
 .plan__price h4 {
-	color:var(--darkBlue);
+  color: var(--darkBlue);
 }
 
 .plan__link {
-	color:var(--brightBlue);
-	font-weight:700;
-	 transition:color .3s ease;
+  color: var(--brightBlue);
+  font-weight: 700;
+  transition: color 0.3s ease;
 }
 
 .plan__link:hover {
-	color:var(--desaturatedBlue);
+  color: var(--desaturatedBlue);
 }
 
 .card__btn {
-	display:block;
-	padding:1.5rem;
-	text-decoration:none;
-	font-weight:700;
-	color:var(--desaturatedBlue);
-	 transition:color .3s ease;
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--desaturatedBlue);
+  transition: color 0.3s ease;
 }
 
-.card__btn:hover{
-color:var(--darkBlue);
+.card__btn:hover {
+  color: var(--darkBlue);
 }
 
 .card__btn--blue {
-	color:white;
-	background-color:var(--brightBlue);
-	border-radius:1.2rem;
-	margin-bottom:1rem;
-	transition:background-color .3s ease;
+  color: white;
+  background-color: var(--brightBlue);
+  border-radius: 1.2rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
 }
 
-.card__btn--blue:hover{
-background-color:var(--desaturatedBlue);
-color:white;
-
+.card__btn--blue:hover {
+  background-color: var(--desaturatedBlue);
+  color: white;
 }
